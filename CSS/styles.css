@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font: 18px/1.5 sans-serif, helvetica, arial;
+  background-color: #f7f5f2; }
+
+h2 {
+  margin-top: 24px; }
+
+/* Header */
+.inner {
+  max-width: 80%;
+  margin: 0 auto; }
+
+header {
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden; }
+
+header li {
+  float: left; }
+
+a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; }
+
+li a:hover {
+  background-color: white;
+  color: black; }
+
+header span {
+  float: right; }
+
+/* Section 1 */
+.sec-1 {
+  display: block;
+  background-image: url("./Images/pexels-photo-coffee-main.jpeg");
+  min-height: 775px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 42px; }
+
+img {
+  width: 100%;
+  max-height: 850px;
+  background-attachment: fixed; }
+
+/* Section 2 */
+.sec-2 h2 {
+  text-align: center;
+  margin-bottom: 42px; }
+
+.welcome-txt {
+  float: left;
+  max-width: 40%;
+  margin-left: 8%;
+  margin-bottom: 42px; }
+
+.welcome-txt2 {
+  float: left;
+  max-width: 40%;
+  margin-left: 5%;
+  margin-bottom: 42px; }
+
+/* Section 3 */
+.sec-3 h2 {
+  text-align: center;
+  margin-bottom: 42px;
+  clear: both; }
+
+.menu-items {
+  float: left;
+  margin-left: 30%;
+  margin-bottom: 42px; }
+
+.menu-items2 {
+  float: left;
+  margin-left: 5%;
+  margin-bottom: 42px; }
+
+/* Section 4 */
+.sec-4 h2 {
+  clear: both;
+  text-align: center;
+  margin-bottom: 42px; }
+
+form {
+  width: 50%;
+  display: block;
+  margin-top: 18px;
+  margin-left: 42%;
+  margin-right: 25%;
+  margin-bottom: 42px; }
+
+form input {
+  padding: 5px; }
+
+button {
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer; }
+
+.hvr-fade {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  overflow: hidden;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: color, background-color;
+  transition-property: color, background-color; }
+
+.hvr-fade:hover, .hvr-fade:focus, .hvr-fade:active {
+  background-color: white;
+  color: black; }
+
+footer {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  width: 100%; }
+
+#span-footer {
+  opacity: 0.5;
+  display: block;
+  margin-left: 10%; }
+
+/*# sourceMappingURL=styles.css.map */
