@@ -1,0 +1,296 @@
+body {
+  font: 15px/1.5 Arial, Helvetica, Sans-serif;
+  padding: 0;
+  margin: 0; }
+
+/* Global */
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  min-height: 100%;
+  position: relative; }
+
+.sec-title {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  list-style-type: none; }
+
+/* Header/nav */
+header {
+  background-color: #0590D6;
+  min-height: 70px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;}
+
+header #main-nav {
+  float: right;
+  font-weight: bold; }
+
+header li {
+  float: left; }
+
+header li a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+  text-decoration: none; }
+
+header li a:hover:not(.active) {
+  background-color: white;
+  color: #FF890D; }
+
+header #branding {
+  margin: 0;
+  padding: 0;
+  color: white;
+  float: left;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%); }
+
+header h1 a{
+  text-decoration: none;
+  color: white;
+}
+
+/* IMG w/ caption */
+.mainimage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 70px;
+  min-height: 875px;
+  overflow: hidden;
+  background-color: lightgrey;
+  text-align: center;
+  font-size: 26px;}
+
+.image h2 {
+  color: white;
+  padding: 0;
+  margin: 0; }
+
+/* Section Services */
+#services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 750px;
+  border-bottom: 5px solid #FF890D;
+  font-size: 24px; }
+
+#services .sec-con1 {
+  display: flex;
+  margin-left: 20%;
+  align-items: center;
+  flex-direction: column;
+  max-height: auto;
+  max-width: 400px;
+  padding: 60px;
+  line-height: 2; }
+
+#services .sec-title {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 32px;
+  color: #FF890D; }
+
+.servnorm-li {
+  opacity: 0.5; }
+
+#serva-id {
+  display: block;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #FF890D;
+  border: 1px solid #FF890D; }
+
+#services a:hover {
+  color: #FF890D;
+  background-color: white; }
+
+#services .sec-con2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20%;
+  width: 300px;
+  height: 300px;
+  background-color: grey;
+  -ms-transform: rotate(-10deg);
+  -webkit-transform: rotate(-10deg);
+  transform: rotate(-10deg);
+  border: 10px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+/* About Me */
+#aboutMe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 750px;
+  font-size: 24px;
+  color: white;
+  background-color: #0590D6; }
+
+#aboutMe .sec-con1 {
+  display: flex;
+  width: 300px;
+  height: 300px;
+  margin-left: 23%;
+  background-color: grey;
+  -ms-transform: rotate(10deg);
+  -webkit-transform: rotate(10deg);
+  transform: rotate(10deg);
+  border: 10px solid white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
+
+#aboutMe .sec-con2 {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: 13%; }
+
+#aboutMe .sec-title {
+  margin-bottom: 0; }
+
+/* Why Choose Us */
+#whyChooseUs {
+  min-height: 750px;
+  font-size: 24px;
+  text-align: center; }
+
+#whyChooseUs h2 {
+  margin: 60px 0 60px 0;
+  color: #FF890D;
+  text-align: center; }
+
+#whyChooseUs p {
+  text-align: left; }
+
+#whyChooseUs img {
+  height: 250px;
+  width: 150px; }
+
+#whyChooseUs .section1, #whyChooseUs .section2, #whyChooseUs .section3 {
+  max-width: 400px;
+  font-size: 20px;
+  margin-left: 30px;
+  float: left; }
+
+#whyChooseUs .section1 {
+  margin-left: 9%; }
+
+/* Second Image */
+.img2 {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  background-color: #c4c4c4; }
+
+/* Contact Me */
+#contactMe {
+  min-height: 725px;
+  border-bottom: 5px solid #FF890D; }
+
+#contactMe h2 {
+  text-align: center;
+  font-size: 34px;
+  color: #FF890D;
+  margin: 60px 60px; }
+
+#contactMe .wrapper {
+  float: left;
+  clear: left;
+  margin-left: 3%;}
+
+#contactMe p, #contactMe h5 {
+  opacity: 0.5;
+  font-size: 22px; }
+
+#contactMe form {
+  float: right;
+  margin-right: 13%; }
+
+/* Form Styles */
+input[type="text"], input[type="email"], input[type="tel"], textarea {
+  min-width: 400px;
+  min-height: 40px;
+  background-color: #eeeeee;
+  font-weight: normal;
+  font-size: 20px;
+  margin: 20px;
+  border: 5px solid #eeeeee;
+  border-radius: 5px;
+}
+
+input[name="Message"] {
+  height: 100px;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea:focus {
+  border-bottom: 5px solid red;
+}
+
+textarea {
+  min-height: 300px;
+}
+
+input[type="submit"] {
+  width: 300px;
+  height: 50px;
+  margin: 20px 20px 40px 75px;
+  background-color: #FF4D4D;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+input[type="submit"]:hover {
+  border: 1px solid #ff4d4d;
+  background-color: white;
+  color: #ff4d4d;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  background-color: #0590D6;
+  color: #c4c4c4;
+  font-size: 16px; }
+
+footer .imp {
+  text-align: center;
+  margin: 0; }
+
+footer a {
+  color: #c4c4c4; }
+
+footer .note1, footer .note2 {
+  float: left;
+  margin: 0 0 0 60px; }
+
+footer .note1 {
+  margin-left: 24%; }
+
+/*# sourceMappingURL=master.css.map */
